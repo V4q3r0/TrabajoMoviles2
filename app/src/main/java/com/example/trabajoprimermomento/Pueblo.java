@@ -4,10 +4,9 @@ import java.io.Serializable;
 
 public class Pueblo implements Serializable {
 
-    String texto, desc;
-    int imagen;
+    String texto, desc, imagen;
 
-    public Pueblo(String texto, String desc, int imagen) {
+    public Pueblo(String texto, String desc, String imagen) {
         this.texto = texto;
         this.desc = desc;
         this.imagen = imagen;
@@ -29,11 +28,11 @@ public class Pueblo implements Serializable {
         this.desc = desc;
     }
 
-    public int getImagen() {
+    public String getImagen() {
         return imagen;
     }
 
-    public void setImagen(int imagen) {
+    public void setImagen(String imagen) {
         this.imagen = imagen;
     }
 }

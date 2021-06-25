@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ImageView;
-import android.widget.ScrollView;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
         pueblo = (Pueblo) getIntent().getSerializableExtra("datosPueblo");
 
-        imagen.setImageResource(pueblo.getImagen());
+        Picasso.with(MainActivity.this)
+                .load(pueblo.getImagen())
+                .into(imagen);
         texto.setText(pueblo.getTexto());
         desc.setText(pueblo.getDesc());
     }

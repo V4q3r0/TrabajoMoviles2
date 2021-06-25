@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Abriaqui, pesebre de Antioquia</string>
+
+    <string name="opcion1">Acerca de</string>
+    <string name="opcion2">Ingles</string>
+    <string name="opcion3">Español</string>
+    <string name="descripcion">Mi nombre es Fredy Alejandro Carvajal, soy estudiante de Desarrollo de Sotfware,
+        me encuentro realizando prácticas formativas con la empresa u organización Grupo Uribe (DOGAMA S.A.S)</string>
 </resources>

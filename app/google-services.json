@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "150217901522",
+    "project_id": "movilesdb-bf8e6",
+    "storage_bucket": "movilesdb-bf8e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150217901522:android:7be3f4ef6abdbc20a3b40b",
+        "android_client_info": {
+          "package_name": "com.example.trabajoprimermomento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150217901522-o86iuhcb89hd0e1g9l4jfagri6gsc91u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4JgjZ5hPSjyvT2pP9ulsHX5orvHeyWRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150217901522-o86iuhcb89hd0e1g9l4jfagri6gsc91u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

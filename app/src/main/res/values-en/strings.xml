@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Abriaqui, manger of antioquia</string>
+
+    <string name="opcion1">About us</string>
+    <string name="opcion2">English</string>
+    <string name="opcion3">Spanish</string>
+    <string name="descripcion">My name is Fredy Alejandro Carvajal, I am a Software Development student,
+         I am doing training practices with the company or organization Grupo Uribe (DOGAMA S.A.S)</string>
+</resources>
